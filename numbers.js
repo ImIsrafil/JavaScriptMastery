@@ -110,3 +110,28 @@
   console.log(x.toString(10));
   console.log(x.toString(16));
 }
+{
+  let x = 34.44757;
+  console.log(x.toExponential(2));
+  console.log(x.toExponential(4));
+  console.log(x.toExponential(5));
+  console.log(x.toExponential(6));
+}
+{
+  let x = 7.4759475;
+  console.log(x.toFixed(0));
+  console.log(x.toFixed(2));
+  console.log(x.toFixed(3));
+  console.log(x.toFixed(4));
+}
+{
+  let x = 5.5745558555;
+  console.log(x.toPrecision(2));
+  console.log(x.toPrecision(4));
+  console.log(x.toPrecision(5));
+}
+{
+  let x = "438477";
+  console.log(typeof x);
+  console.log(typeof parseInt(x));
+}
