@@ -69,3 +69,8 @@ console.log(textPart4);
   let char = text1.charAt(0);
   console.log(char);
 }
+{
+  let text = "apple, banana, litchi, mango";
+  let list = text.split(", ");
+  console.log(list);
+}
